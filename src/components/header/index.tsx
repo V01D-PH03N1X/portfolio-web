@@ -26,7 +26,7 @@ function Header() {
 
   return (
     <Flex direction={"row"} align={"center"} justify={"space-between"} mt={5} mb={10} mx={5}>
-      <ColorModeButton/>
+      <ColorModeButton mr={2}/>
       <HStack direction={"row"}>
         <Badge variant="outline" colorPalette="orange" size={"sm"}>
           <GrLocation/>
