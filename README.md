@@ -47,6 +47,7 @@ This will create a `dist` folder with the production build of the application.
 - [React Icons](https://react-icons.github.io/react-icons/) - Include popular icons in your React projects easily with
   react-icons
 - [Vite](https://vitejs.dev/) - A fast, modern build tool that focuses on speed and performance
+- [Motion](https://motion.dev/) - A library for creating animations
 
 ## License
 
