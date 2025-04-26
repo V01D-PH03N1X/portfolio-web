@@ -43,11 +43,15 @@ This will create a `dist` folder with the production build of the application.
 - [ChakraUI](https://chakra-ui.com/) - A simple, modular and accessible component library for React
 - [SASS](https://sass-lang.com/) - A preprocessor scripting language that is interpreted or compiled into Cascading
   Style Sheets (CSS)
+- [ESLint](https://eslint.org/) - A static code analysis tool for identifying problematic patterns in JavaScript code
+- [Prettier](https://prettier.io/) - An opinionated code formatter
 - [Axios](https://axios-http.com/) - A promise-based HTTP client for the browser and Node.js
 - [React Icons](https://react-icons.github.io/react-icons/) - Include popular icons in your React projects easily with
   react-icons
 - [Vite](https://vitejs.dev/) - A fast, modern build tool that focuses on speed and performance
 - [Motion](https://motion.dev/) - A library for creating animations
+- [react-cookie-consent](https://www.npmjs.com/package/react-cookie-consent) - A cookie consent component for React
+- [posthog-js](https://posthog.com/docs/libraries/react) - A JavaScript library for PostHog (React)
 
 ## License
 

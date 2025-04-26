@@ -4,6 +4,8 @@ import profilePicture from "@/assets/profilePicture.jpeg";
 import Footer from "@/components/footer";
 import {FaGithub, FaUnlock} from "react-icons/fa";
 import {motion} from "motion/react";
+import {CookieConsent} from "react-cookie-consent";
+import posthog from "posthog-js";
 
 function HomePage() {
   const ringCss = defineStyle({
@@ -295,6 +297,21 @@ function HomePage() {
       </motion.div>
       <Separator/>
       <Footer/>
+      <CookieConsent
+        location="bottom"
+        style={{backgroundColor: "#121212"}}
+        buttonStyle={{backgroundColor: "yellow", borderRadius: "5px"}}
+        buttonText={"Akzeptieren"}
+        declineButtonText={"Ablehnen"}
+        expires={14}
+        cookieName={"cookieConsent"}
+        onAccept={() => {
+          posthog.capture("Accepted Cookies", {property: true});
+        }}
+      >
+        Diese Website verwendet Cookies, um Ihnen die bestmögliche Erfahrung zu
+        bieten.
+      </CookieConsent>
     </Container>
   );
 }
