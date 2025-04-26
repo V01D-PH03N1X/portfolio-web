@@ -6,6 +6,8 @@ import {FaGithub, FaUnlock} from "react-icons/fa";
 import {motion} from "motion/react";
 import {CookieConsent} from "react-cookie-consent";
 import posthog from "posthog-js";
+import {Tooltip} from "@/components/ui/tooltip.tsx";
+import {useId} from "react"
 
 function HomePage() {
   const ringCss = defineStyle({
@@ -14,6 +16,7 @@ function HomePage() {
     outlineOffset: "2px",
     outlineStyle: "solid",
   });
+  const id = useId()
 
   return (
     <Container>
@@ -34,18 +37,31 @@ function HomePage() {
                 Angehender Softwaredeveloper
               </Text>
             </Flex>
-            <Avatar.Root
-              css={ringCss}
-              size={"2xl"}
-              colorPalette={"green"}
-              borderless={false}
-            >
-              <Avatar.Fallback name="Sebastian Schindler"/>
-              <Avatar.Image
-                src={profilePicture}
-                style={{filter: "brightness(2)"}}
-              />
-            </Avatar.Root>
+            <Tooltip content="Klicke um einen Termin zu Buchen!" ids={{trigger: id}} openDelay={500}
+                     positioning={{placement: "top-start"}}>
+              <Avatar.Root
+                css={ringCss}
+                size={"2xl"}
+                colorPalette={"green"}
+                borderless={false}
+                ids={{root: id}}
+                onClick={() => {
+                  posthog.capture("profile_picture_clicked redirected to cal.dev!");
+                  window.open("https://cal.com/sschindler", "_blank");
+                }}
+                style={{
+                  cursor: "pointer",
+                  marginLeft: "20px",
+                  marginTop: "10px",
+                }}
+              >
+                <Avatar.Fallback name="Sebastian Schindler"/>
+                <Avatar.Image
+                  src={profilePicture}
+                  style={{filter: "brightness(2)"}}
+                />
+              </Avatar.Root>
+            </Tooltip>
           </Flex>
         </motion.div>
         <motion.div

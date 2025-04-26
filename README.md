@@ -53,6 +53,13 @@ This will create a `dist` folder with the production build of the application.
 - [react-cookie-consent](https://www.npmjs.com/package/react-cookie-consent) - A cookie consent component for React
 - [posthog-js](https://posthog.com/docs/libraries/react) - A JavaScript library for PostHog (React)
 
+# Used Tools or Services
+
+- [Vercel](https://vercel.com/) - A cloud platform for static sites and Serverless Functions
+- [PostHog](https://posthog.com/) - An open-source product analytics platform
+- [GitHub](https://github.com) - A web-based platform for version control and collaboration
+- [Cal.dev](https://cal.dev/) - A calendar service for scheduling meetings
+
 ## License
 
 This project is only for catching up ideas or learning purposes.
