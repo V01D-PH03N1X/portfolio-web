@@ -103,9 +103,10 @@ function HomePage() {
             textAlign={"center"}
           >
             Ich habe Erfahrung in der Entwicklung von Webanwendungen mit React,
-            TypeScript und Sass. Zudem habe ich gute Kenntnise mit Linux und Docker. Beruflich habe
-            ich bereits mit Java und C++ gearbeitet. In meiner schulischen
-            Ausbildung habe ich mit C# und C++ auch Projekte umgesetzt.
+            TypeScript und Sass. Zudem habe ich gute Kenntnise mit Linux und
+            Docker. Beruflich habe ich bereits mit Java und C++ gearbeitet. In
+            meiner schulischen Ausbildung habe ich mit C# und C++ auch Projekte
+            umgesetzt.
           </Text>
         </Flex>
       </motion.div>
