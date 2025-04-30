@@ -297,7 +297,7 @@ function HomePage() {
                   <Button asChild variant="outline">
                     <a
                       target={"_blank"}
-                      href={"https://v01dph03n1x.gumroad.com/l/ytdl"}
+                      href={"https://crack.mydark.me/"}
                     >
                       Zum Spiel...
                     </a>
