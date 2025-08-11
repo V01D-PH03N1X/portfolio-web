@@ -74,11 +74,9 @@ function HomePage() {
         >
           <Flex direction={"column"} m={5} maxW={"2xl"}>
             <Text fontSize="lg" color="fg.muted" textAlign={"center"}>
-              Ich bin ein leidenschaftlicher Softwareentwickler mit einem
-              starken Fokus auf Frontend-Technologien. Ich habe Erfahrung in der
-              Entwicklung von Webanwendungen mit React, TypeScript und Chakra
-              UI. Ich bin immer auf der Suche nach neuen Herausforderungen und
-              Möglichkeiten, meine Fähigkeiten zu erweitern.
+              Ich realisiere moderne Frontend-Lösungen mit React und TypeScript und nutze Chakra UI für konsistente, 
+              zugängliche Oberflächen. Dabei lege ich Wert auf eine klare Architektur, nachvollziehbares State-Management 
+              und messbare Performance und erweitere mein Profil gezielt durch neue Technologien.
             </Text>
           </Flex>
         </motion.div>
@@ -92,10 +90,11 @@ function HomePage() {
         >
           <Flex direction={"column"} m={5} maxW={"2xl"}>
             <Text fontSize="lg" color="fg.muted" textAlign={"center"}>
-              Ich bin ein Teamplayer und arbeite gerne mit anderen Entwicklern
-              zusammen, um innovative Lösungen zu entwickeln. Ich bin auch daran
-              interessiert, meine Kenntnisse stetig zu erweitern und neue
-              Technologien zu erlernen.
+              Teamorientiertes Arbeiten mit klaren Schnittstellen und gemeinsamen Verantwortungsgefühl: 
+              In enger Zusammenarbeit mit anderen Entwicklerinnen und Entwicklern entstehen robuste, innovative Lösungen. 
+              Im Fokus stehen strukturierte Abstimmungen, Code-Reviews und transparente Kommunikation. 
+              Die kontinuierliche Erweiterung des Kenntnisstands ist fester Bestandteil des Arbeitsstils. 
+              Neue Technologien werden gezielt evaluiert, erlernt und in belastbare, produktionsreife Ergebnisse überführt.
             </Text>
           </Flex>
         </motion.div>
@@ -118,11 +117,9 @@ function HomePage() {
             maxW={"2xl"}
             textAlign={"center"}
           >
-            Ich habe Erfahrung in der Entwicklung von Webanwendungen mit React,
-            TypeScript und Sass. Zudem habe ich gute Kenntnise mit Linux und
-            Docker. Beruflich habe ich bereits mit Java und C++ gearbeitet. In
-            meiner schulischen Ausbildung habe ich mit C# und C++ auch Projekte
-            umgesetzt.
+            Erfahrung in der Entwicklung moderner Webanwendungen mit React und TypeScript, Styling mit Sass. 
+            Solide Kenntnisse in Linux, sowie Docker für containerisierte Entwicklungs- und Laufzeitumgebungen. 
+            Berufliche Praxis in Java und C++. Im Rahmen der schulischen Ausbildung wurden zusätzlich Projekte mit C# und C++ umgesetzt.
           </Text>
         </Flex>
       </motion.div>
@@ -258,8 +255,7 @@ function HomePage() {
                   </Avatar.Root>
                   <Card.Title mb="2">Portfolio Website</Card.Title>
                   <Card.Description>
-                    Der Source Code für diese Portfolio Website. Ja, dieses
-                    Portfolio ist kein Template und ist OpenSource.
+                    Das Portfolio ist kein Template und mit eigener Kreativität und eigenem Wissen entwickelt. 
                   </Card.Description>
                 </Card.Body>
                 <Card.Footer justifyContent="flex-end">
@@ -268,7 +264,7 @@ function HomePage() {
                       target={"_blank"}
                       href={"https://github.com/V01D-PH03N1X/portfolio-web"}
                     >
-                      Mehr dazu...
+                      Projekt ansehen...
                     </a>
                   </Button>
                 </Card.Footer>
@@ -289,7 +285,7 @@ function HomePage() {
                   </Avatar.Root>
                   <Card.Title mb="2">CodeGuessr</Card.Title>
                   <Card.Description>
-                    Ein kleines Spiel für zwischendurch, bist du so schlau und
+                    Ein kleines Spiel für zwischendurch. Bist du so schlau und
                     schaffst du es den Code zu knacken?
                   </Card.Description>
                 </Card.Body>

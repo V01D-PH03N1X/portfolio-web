@@ -34,7 +34,7 @@ function Footer() {
               <FaInstagram size={20}/>
             </Link>
             <Link
-              to={"https://www.tiktok.com/@darkbastiplaysofficial"}
+              to={"https://www.tiktok.com/@pingubasti"}
               target={"_blank"}
             >
               <FaTiktok size={20}/>
@@ -51,7 +51,7 @@ function Footer() {
             <Link to={"https://github.com/V01D-PH03N1X"} target={"_blank"}>
               <FaGithub size={20}/>
             </Link>
-            <Link to={"https://wa.me/+4917656613022"} target={"_blank"}>
+            <Link to={"https://wa.me/+4915147933486"} target={"_blank"}>
               <FaWhatsapp size={20}/>
             </Link>
           </Flex>
